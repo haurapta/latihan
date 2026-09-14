@@ -151,3 +151,54 @@ Cek hasil akhirnya, folder sudah lebih bersih:
 
 Cetak pesan kebanggaan di layar terminal Anda:
 # echo "Selamat! Saya berhasil menyelesaikan 50 perintah Command Line!"
+
+Menjalankan perintah dengan hak akses administrator penuh (Superuser).
+# sudo
+ 
+Melihat daftar koneksi jaringan, protokol, dan port yang sedang aktif.
+# netstat
+
+Menampilkan daftar proses aplikasi yang saat ini sedang berjalan di background.
+# ps
+
+Memantau kinerja prosesor (CPU) dan RAM secara real-time (mirip Task Manager).
+# top
+
+Menghentikan paksa sebuah proses aplikasi yang macet menggunakan nomor ID-nya (PID).
+# kill
+
+Menghentikan seluruh proses secara serentak berdasarkan nama aplikasinya.
+#killall
+
+Menampilkan rincian sisa kapasitas RAM dan ruang Swap komputer.
+#free
+
+Melihat durasi komputer atau server menyala sejak restart terakhir
+#uptime
+
+Menampilkan buku panduan (manual) resmi dari sebuah perintah (contoh: man ls untuk melihat cara pakai ls).
+# man
+
+Membuat kata kunci (shortcut) baru untuk mempersingkat perintah yang panjang.
+# alias
+
+Menghapus kata kunci shortcut yang sebelumnya sudah Anda buat dengan perintah alias.
+# unalias
+
+Fungsinya untuk memperbarui daftar (katalog) aplikasi dari server pusat Linux.
+# sudo apt update
+
+Fungsinya untuk memasang (menginstal) pembaruan ke sistem Anda. 
+# sudo apt upgrade
+
+Fungsinya untuk mengunduh dan menginstal aplikasi baru ke dalam system
+# sudo apt install nama_paket
+
+Fungsinya untuk menghapus (uninstall) aplikasi dari komputer Anda
+# sudo apt remove nama_paket 
+
+menampilkan daftar semua aplikasi yang sudah terinstal 
+# dpkg -l
+
+menampilkan daftar semua proses program yang sedang berjalan.
+# ps aux 
